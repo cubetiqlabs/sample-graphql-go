@@ -1,10 +1,12 @@
 module cubetiqlabs/sample-graphql
 
-go 1.19
+go 1.21
+
+toolchain go1.23.2
 
 require (
 	github.com/99designs/gqlgen v0.17.45
-	github.com/vektah/gqlparser/v2 v2.5.11
+	github.com/vektah/gqlparser/v2 v2.5.18
 )
 
 require (
